@@ -26,3 +26,5 @@ postRun:
         -yarn --version
     
 version: 1.0.1
+
+nodeVersion: 14.16.1
