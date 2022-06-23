@@ -5,8 +5,8 @@ framework: jasmine # mocha # framework should be as per your project
 
 preRun:
   # SECONDLY - You need to set the preRun commands. These are shell commands executed inside the root level of your git repository before running the tests. preRun commands are executed using non-login shells by default, so you must explicitly source any dotfiles as part of the command.
-  command:
-    - yarn install
+     command:
+        - yarn install
 
 postMerge:
   # THIRDLY - You need to set postMerge patterns.
@@ -22,8 +22,7 @@ preMerge:
     - "./i18n/ucd/spec/*.js"
     
 postRun:
-  command:
-     -yarn --version
+     command:
+        -yarn --version
     
-nodeVersion: 14.16.1
 version: 1.0.1
