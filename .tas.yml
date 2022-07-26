@@ -16,5 +16,5 @@ postRun:
         - yarn --version
 nodeVersion: 14.16.1
 version: 1.0.1
-# parallelism: 4
+parallelism: 4
 #erowed
